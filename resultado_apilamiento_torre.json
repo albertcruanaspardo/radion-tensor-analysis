@@ -1,0 +1,12 @@
+{
+  "canal": "LIGO_O3b_APILAMIENTO_TORRE_17",
+  "modo_evanescente_Hz": 13.15,
+  "f0_optimo_Hz": 37.6795,
+  "significancia_local_sigma": 2.317,
+  "significancia_global_sigma": 0.0,
+  "rango_f0_escaneado_Hz": [
+    32.0,
+    38.0
+  ],
+  "numero_ensayos_vernier": 600
+}

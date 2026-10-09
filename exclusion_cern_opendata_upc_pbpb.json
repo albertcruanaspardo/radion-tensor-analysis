@@ -1,0 +1,159 @@
+{
+  "experimento": "CERN_LHC_UPC_PbPb_5.02TeV",
+  "factor_coherencia_Z4": 45212176,
+  "luminosidad_ub": 1500.0,
+  "eventos_procesados": 250000,
+  "eventos_seleccionados": 93573,
+  "espectro_masa": [
+    {
+      "masa_inv_gev": 5.5,
+      "eventos_observados": 14416,
+      "cota_seccion_eficaz_nb": 156.8871
+    },
+    {
+      "masa_inv_gev": 6.5,
+      "eventos_observados": 12107,
+      "cota_seccion_eficaz_nb": 143.7749
+    },
+    {
+      "masa_inv_gev": 7.5,
+      "eventos_observados": 10291,
+      "cota_seccion_eficaz_nb": 132.5542
+    },
+    {
+      "masa_inv_gev": 8.5,
+      "eventos_observados": 8815,
+      "cota_seccion_eficaz_nb": 122.6806
+    },
+    {
+      "masa_inv_gev": 9.5,
+      "eventos_observados": 7330,
+      "cota_seccion_eficaz_nb": 111.8708
+    },
+    {
+      "masa_inv_gev": 10.5,
+      "eventos_observados": 6228,
+      "cota_seccion_eficaz_nb": 103.1191
+    },
+    {
+      "masa_inv_gev": 11.5,
+      "eventos_observados": 5359,
+      "cota_seccion_eficaz_nb": 95.6548
+    },
+    {
+      "masa_inv_gev": 12.5,
+      "eventos_observados": 4417,
+      "cota_seccion_eficaz_nb": 86.8417
+    },
+    {
+      "masa_inv_gev": 13.5,
+      "eventos_observados": 3858,
+      "cota_seccion_eficaz_nb": 81.1607
+    },
+    {
+      "masa_inv_gev": 14.5,
+      "eventos_observados": 3194,
+      "cota_seccion_eficaz_nb": 73.8469
+    },
+    {
+      "masa_inv_gev": 15.5,
+      "eventos_observados": 2762,
+      "cota_seccion_eficaz_nb": 68.6715
+    },
+    {
+      "masa_inv_gev": 16.5,
+      "eventos_observados": 2267,
+      "cota_seccion_eficaz_nb": 62.2144
+    },
+    {
+      "masa_inv_gev": 17.5,
+      "eventos_observados": 1962,
+      "cota_seccion_eficaz_nb": 57.8781
+    },
+    {
+      "masa_inv_gev": 18.5,
+      "eventos_observados": 1591,
+      "cota_seccion_eficaz_nb": 52.1195
+    },
+    {
+      "masa_inv_gev": 19.5,
+      "eventos_observados": 1404,
+      "cota_seccion_eficaz_nb": 48.9608
+    },
+    {
+      "masa_inv_gev": 20.5,
+      "eventos_observados": 1133,
+      "cota_seccion_eficaz_nb": 43.9825
+    },
+    {
+      "masa_inv_gev": 21.5,
+      "eventos_observados": 1008,
+      "cota_seccion_eficaz_nb": 41.4854
+    },
+    {
+      "masa_inv_gev": 22.5,
+      "eventos_observados": 802,
+      "cota_seccion_eficaz_nb": 37.0043
+    },
+    {
+      "masa_inv_gev": 23.5,
+      "eventos_observados": 679,
+      "cota_seccion_eficaz_nb": 34.0486
+    },
+    {
+      "masa_inv_gev": 24.5,
+      "eventos_observados": 597,
+      "cota_seccion_eficaz_nb": 31.9265
+    },
+    {
+      "masa_inv_gev": 25.5,
+      "eventos_observados": 530,
+      "cota_seccion_eficaz_nb": 30.0817
+    },
+    {
+      "masa_inv_gev": 26.5,
+      "eventos_observados": 423,
+      "cota_seccion_eficaz_nb": 26.8742
+    },
+    {
+      "masa_inv_gev": 27.5,
+      "eventos_observados": 382,
+      "cota_seccion_eficaz_nb": 25.5386
+    },
+    {
+      "masa_inv_gev": 28.5,
+      "eventos_observados": 298,
+      "cota_seccion_eficaz_nb": 22.5566
+    },
+    {
+      "masa_inv_gev": 29.5,
+      "eventos_observados": 243,
+      "cota_seccion_eficaz_nb": 20.3689
+    },
+    {
+      "masa_inv_gev": 30.5,
+      "eventos_observados": 250,
+      "cota_seccion_eficaz_nb": 20.6602
+    },
+    {
+      "masa_inv_gev": 31.5,
+      "eventos_observados": 181,
+      "cota_seccion_eficaz_nb": 17.5794
+    },
+    {
+      "masa_inv_gev": 32.5,
+      "eventos_observados": 164,
+      "cota_seccion_eficaz_nb": 16.7335
+    },
+    {
+      "masa_inv_gev": 33.5,
+      "eventos_observados": 136,
+      "cota_seccion_eficaz_nb": 15.2382
+    },
+    {
+      "masa_inv_gev": 34.5,
+      "eventos_observados": 110,
+      "cota_seccion_eficaz_nb": 13.7044
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Archivos de datos masivos (>100MB)
+*.hdf5
+*.h5
+*.dat
+*.tar.gz
+*.zip
+
+# Cache de relojes y datos locales
+bipm_clock_cache/
+__pycache__/
+*.pyc

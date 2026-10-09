@@ -1,0 +1,13 @@
+{
+  "candidato_tiempo_s": 2700.0,
+  "via_1_inversion": {
+    "ascension_recta_deg": 328.09,
+    "declinacion_deg": 55.89,
+    "velocidad_km_s": 300.1,
+    "p_value_time_slides": 0.0
+  },
+  "via_2_hibrido": {
+    "snr_optico": 0.28,
+    "acoplamiento_transitorio_de": 3.5e-20
+  }
+}

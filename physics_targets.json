@@ -1,0 +1,25 @@
+{
+    "graviton_G1": {
+        "mass_gev": 16871.001386823675,
+        "signature": "high_mass_dilepton_or_dijet",
+        "accessible_lhc": false
+    },
+    "radion_phi0": {
+        "mass_gev": 347.8473195127486,
+        "width_gev": 7.52,
+        "decay_constant_tev": 10.78510333747433,
+        "channel": "ZZ_to_4l",
+        "fiducial_cross_section_fb": 0.008485723168225743,
+        "search_window_gev": [
+            590.0,
+            615.0
+        ]
+    },
+    "vector_like_top_T": {
+        "mass_gev": 2201.5,
+        "mixing_sin_theta_L": 0.0784,
+        "channel_primary": "T -> Wb / Zt",
+        "sigma_pair_production_fb": 0.38,
+        "search_mass_gev": 2200.0
+    }
+}

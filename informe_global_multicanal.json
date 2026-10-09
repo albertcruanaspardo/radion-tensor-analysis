@@ -1,0 +1,44 @@
+{
+  "proyecto": "Prospeccion Multicanal Foliacion Modular N=17",
+  "autor": "Albert Cruanas Pardo",
+  "fecha": "2026",
+  "resumen_canales": {
+    "gnome_soliton_transitorio": {
+      "snr_sigma": 3.55,
+      "v_aparente_km_s": 300.1,
+      "ra_deg": 328.09,
+      "dec_deg": 55.89,
+      "time_slides_1000_p_value": 0.0
+    },
+    "bipm_ptb_syrte_optico": {
+      "delta_nu_over_nu0": 3.6e-19,
+      "snr_optico_sigma": 0.28,
+      "cota_d_e_95CL": 4.8e-20
+    },
+    "ligo_o3b_poliharmonico": {
+      "snr_sigma": 0.586,
+      "cota_h0_95CL": 4.409e-25
+    },
+    "gnome_linea_13hz_continua": {
+      "frecuencia_hz": 13.15,
+      "ganancia_serf": 0.52,
+      "snr_sigma": -0.93,
+      "cota_B0_fT_95CL": 0.567
+    },
+    "torre_17hojas_matriz": {
+      "lambda_max": 1.254,
+      "lambda_marchenko_pastur": 2.296,
+      "significancia_colectiva_sigma": -1.43
+    },
+    "torre_17hojas_apilamiento_vernier": {
+      "f0_optimo_Hz": 37.679,
+      "z_local_max_sigma": 2.317,
+      "z_global_con_lee_sigma": 0.0
+    },
+    "apantallamiento_thin_shell_tierra": {
+      "theta_screen": 2.394e-07,
+      "delta_R_cm": 152.54,
+      "supresion_fuerza_quinta": 1.437e-06
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "canal": "LIGO_O3b_POLIHARMONICO",
+  "frecuencia_lenta_Hz": 13.15,
+  "frecuencia_portadora_Hz": 210.42,
+  "bandas_laterales_Hz": [
+    197.27,
+    223.57
+  ],
+  "snr_matched_filter": 0.729,
+  "cota_superior_h0_95CL": 4.133e-25,
+  "bicoherencia_observada": 0.0582,
+  "bicoherencia_fondo": 0.0312
+}

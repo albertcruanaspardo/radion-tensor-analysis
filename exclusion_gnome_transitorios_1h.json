@@ -1,0 +1,16 @@
+{
+  "red": "GNOME_4_STATIONS",
+  "estaciones": [
+    "PTB_Alemania",
+    "KRA_Polonia",
+    "LAN_EEUU",
+    "DAE_Corea"
+  ],
+  "duracion_analizada_s": 3600.0,
+  "velocidad_prueba_km_s": 300.0,
+  "evento_maximo": {
+    "tiempo_deteccion_s": 2700.0,
+    "significancia_sigma": 3.55,
+    "coherencia_red": 0.1437
+  }
+}

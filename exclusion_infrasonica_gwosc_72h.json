@@ -1,0 +1,93 @@
+{
+  "detector": "H1",
+  "duracion_horas": 71.68,
+  "muestras_4hz": 1032192,
+  "rayleigh_hz": "3.8752e-06",
+  "espectro_exclusion": [
+    {
+      "f0_carrier_hz": 0.4,
+      "snr_obs_rho": 2.123,
+      "h0_upper_limit_95cl": "7.4461e-15"
+    },
+    {
+      "f0_carrier_hz": 0.45,
+      "snr_obs_rho": 1.975,
+      "h0_upper_limit_95cl": "7.4461e-15"
+    },
+    {
+      "f0_carrier_hz": 0.5,
+      "snr_obs_rho": 0.537,
+      "h0_upper_limit_95cl": "7.4461e-15"
+    },
+    {
+      "f0_carrier_hz": 0.55,
+      "snr_obs_rho": 0.662,
+      "h0_upper_limit_95cl": "7.4461e-15"
+    },
+    {
+      "f0_carrier_hz": 0.6,
+      "snr_obs_rho": 1.194,
+      "h0_upper_limit_95cl": "7.4461e-15"
+    },
+    {
+      "f0_carrier_hz": 0.65,
+      "snr_obs_rho": 1.537,
+      "h0_upper_limit_95cl": "7.4461e-15"
+    },
+    {
+      "f0_carrier_hz": 0.7,
+      "snr_obs_rho": 0.54,
+      "h0_upper_limit_95cl": "7.4461e-15"
+    },
+    {
+      "f0_carrier_hz": 0.75,
+      "snr_obs_rho": 1.236,
+      "h0_upper_limit_95cl": "7.4461e-15"
+    },
+    {
+      "f0_carrier_hz": 0.8,
+      "snr_obs_rho": 1.694,
+      "h0_upper_limit_95cl": "7.4461e-15"
+    },
+    {
+      "f0_carrier_hz": 0.85,
+      "snr_obs_rho": 0.759,
+      "h0_upper_limit_95cl": "7.4461e-15"
+    },
+    {
+      "f0_carrier_hz": 0.9,
+      "snr_obs_rho": 0.472,
+      "h0_upper_limit_95cl": "7.4461e-15"
+    },
+    {
+      "f0_carrier_hz": 0.95,
+      "snr_obs_rho": 0.209,
+      "h0_upper_limit_95cl": "7.4461e-15"
+    },
+    {
+      "f0_carrier_hz": 1.0,
+      "snr_obs_rho": 0.654,
+      "h0_upper_limit_95cl": "7.4461e-15"
+    },
+    {
+      "f0_carrier_hz": 1.05,
+      "snr_obs_rho": 0.735,
+      "h0_upper_limit_95cl": "7.4461e-15"
+    },
+    {
+      "f0_carrier_hz": 1.1,
+      "snr_obs_rho": 0.608,
+      "h0_upper_limit_95cl": "7.4461e-15"
+    },
+    {
+      "f0_carrier_hz": 1.15,
+      "snr_obs_rho": 0.597,
+      "h0_upper_limit_95cl": "7.4461e-15"
+    },
+    {
+      "f0_carrier_hz": 1.2,
+      "snr_obs_rho": 0.485,
+      "h0_upper_limit_95cl": "7.4461e-15"
+    }
+  ]
+}

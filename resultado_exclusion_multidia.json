@@ -1,0 +1,32 @@
+{
+  "duracion_horas": 71.8,
+  "muestras": 1033969,
+  "snr_ciego_sigma": 0.31,
+  "h0_limite_base": "1.860e-21",
+  "cotas_por_masa": [
+    {
+      "masa_gev": 10.0,
+      "h0_95_cl": "1.861e-21",
+      "de_over_lambda_gev_inv": "1.833e-24",
+      "lambda_min_tev": "1.32e+20"
+    },
+    {
+      "masa_gev": 100.0,
+      "h0_95_cl": "1.870e-21",
+      "de_over_lambda_gev_inv": "1.842e-24",
+      "lambda_min_tev": "1.32e+20"
+    },
+    {
+      "masa_gev": 1000.0,
+      "h0_95_cl": "2.631e-21",
+      "de_over_lambda_gev_inv": "2.592e-24",
+      "lambda_min_tev": "9.36e+19"
+    },
+    {
+      "masa_gev": 10785.0,
+      "h0_95_cl": "2.015e-20",
+      "de_over_lambda_gev_inv": "1.985e-23",
+      "lambda_min_tev": "1.22e+19"
+    }
+  ]
+}

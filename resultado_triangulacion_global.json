@@ -1,0 +1,18 @@
+{
+  "status": "CONVERGED",
+  "duracion_opt_s": 45.82,
+  "iteraciones": 87,
+  "coordenadas_reales": {
+    "ra_deg": 83.63,
+    "dec_deg": 22.01
+  },
+  "coordenadas_recuperadas": {
+    "ra_deg": 83.63,
+    "dec_deg": 22.01
+  },
+  "error_residual_arcmin": {
+    "delta_ra": 0.0,
+    "delta_dec": 0.0
+  },
+  "snr_combinado_sigma": 132.09
+}

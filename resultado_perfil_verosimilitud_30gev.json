@@ -1,0 +1,9 @@
+{
+  "masa_optimizada_gev": 30.5,
+  "eventos_senal_ajustados": 50.0,
+  "delta_q0": 0.0,
+  "significancia_local_sigma": 0.0,
+  "significancia_global_sigma": -Infinity,
+  "p_value_local": "5.0000e-01",
+  "p_value_global": "1.0000e+00"
+}

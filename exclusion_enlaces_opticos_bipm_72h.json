@@ -1,0 +1,128 @@
+{
+  "estacion": "PTB-Braunschweig",
+  "linea_base": "PTB_SYRTE_FIBER_LINK",
+  "duracion_horas": 71.8,
+  "muestras": 1033968,
+  "rayleigh_res_hz": "3.8686e-06",
+  "espectro_relojes_bipm": [
+    {
+      "f0_carrier_hz": 0.4,
+      "snr_obs_rho": 2.355,
+      "delta_nu_nu0_95cl": "2.4015e-19",
+      "dilaton_de_95cl": "4.8030e-20",
+      "lambda_r_min_tev": "2.08e+16"
+    },
+    {
+      "f0_carrier_hz": 0.45,
+      "snr_obs_rho": 0.971,
+      "delta_nu_nu0_95cl": "2.4015e-19",
+      "dilaton_de_95cl": "4.8030e-20",
+      "lambda_r_min_tev": "2.08e+16"
+    },
+    {
+      "f0_carrier_hz": 0.5,
+      "snr_obs_rho": 0.193,
+      "delta_nu_nu0_95cl": "2.4015e-19",
+      "dilaton_de_95cl": "4.8030e-20",
+      "lambda_r_min_tev": "2.08e+16"
+    },
+    {
+      "f0_carrier_hz": 0.55,
+      "snr_obs_rho": 0.013,
+      "delta_nu_nu0_95cl": "2.4015e-19",
+      "dilaton_de_95cl": "4.8030e-20",
+      "lambda_r_min_tev": "2.08e+16"
+    },
+    {
+      "f0_carrier_hz": 0.6,
+      "snr_obs_rho": 0.199,
+      "delta_nu_nu0_95cl": "2.4015e-19",
+      "dilaton_de_95cl": "4.8030e-20",
+      "lambda_r_min_tev": "2.08e+16"
+    },
+    {
+      "f0_carrier_hz": 0.65,
+      "snr_obs_rho": 0.018,
+      "delta_nu_nu0_95cl": "2.4015e-19",
+      "dilaton_de_95cl": "4.8030e-20",
+      "lambda_r_min_tev": "2.08e+16"
+    },
+    {
+      "f0_carrier_hz": 0.7,
+      "snr_obs_rho": 0.026,
+      "delta_nu_nu0_95cl": "2.4015e-19",
+      "dilaton_de_95cl": "4.8030e-20",
+      "lambda_r_min_tev": "2.08e+16"
+    },
+    {
+      "f0_carrier_hz": 0.75,
+      "snr_obs_rho": 0.009,
+      "delta_nu_nu0_95cl": "2.4015e-19",
+      "dilaton_de_95cl": "4.8030e-20",
+      "lambda_r_min_tev": "2.08e+16"
+    },
+    {
+      "f0_carrier_hz": 0.8,
+      "snr_obs_rho": 0.005,
+      "delta_nu_nu0_95cl": "2.4015e-19",
+      "dilaton_de_95cl": "4.8030e-20",
+      "lambda_r_min_tev": "2.08e+16"
+    },
+    {
+      "f0_carrier_hz": 0.85,
+      "snr_obs_rho": 0.005,
+      "delta_nu_nu0_95cl": "2.4015e-19",
+      "dilaton_de_95cl": "4.8030e-20",
+      "lambda_r_min_tev": "2.08e+16"
+    },
+    {
+      "f0_carrier_hz": 0.9,
+      "snr_obs_rho": 0.007,
+      "delta_nu_nu0_95cl": "2.4015e-19",
+      "dilaton_de_95cl": "4.8030e-20",
+      "lambda_r_min_tev": "2.08e+16"
+    },
+    {
+      "f0_carrier_hz": 0.95,
+      "snr_obs_rho": 0.005,
+      "delta_nu_nu0_95cl": "2.4015e-19",
+      "dilaton_de_95cl": "4.8030e-20",
+      "lambda_r_min_tev": "2.08e+16"
+    },
+    {
+      "f0_carrier_hz": 1.0,
+      "snr_obs_rho": 0.003,
+      "delta_nu_nu0_95cl": "2.4015e-19",
+      "dilaton_de_95cl": "4.8030e-20",
+      "lambda_r_min_tev": "2.08e+16"
+    },
+    {
+      "f0_carrier_hz": 1.05,
+      "snr_obs_rho": 0.003,
+      "delta_nu_nu0_95cl": "2.4015e-19",
+      "dilaton_de_95cl": "4.8030e-20",
+      "lambda_r_min_tev": "2.08e+16"
+    },
+    {
+      "f0_carrier_hz": 1.1,
+      "snr_obs_rho": 0.004,
+      "delta_nu_nu0_95cl": "2.4015e-19",
+      "dilaton_de_95cl": "4.8030e-20",
+      "lambda_r_min_tev": "2.08e+16"
+    },
+    {
+      "f0_carrier_hz": 1.15,
+      "snr_obs_rho": 0.006,
+      "delta_nu_nu0_95cl": "2.4015e-19",
+      "dilaton_de_95cl": "4.8030e-20",
+      "lambda_r_min_tev": "2.08e+16"
+    },
+    {
+      "f0_carrier_hz": 1.2,
+      "snr_obs_rho": 0.004,
+      "delta_nu_nu0_95cl": "2.4015e-19",
+      "dilaton_de_95cl": "4.8030e-20",
+      "lambda_r_min_tev": "2.08e+16"
+    }
+  ]
+}
