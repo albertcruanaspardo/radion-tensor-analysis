@@ -14,3 +14,36 @@ DOI: 10.5281/zenodo.23135100
 - `sim_scalar_radion_field_dynamics.py`: 1D Klein-Gordon scalar radion field dynamics, fifth-force spatial gradients across the optical table, and fundamental constant modulation (|Delta alpha / alpha| = 4.99e-17, 50x above optical atomic clock limits).
 - `sim_radion_thermodynamics_and_poynting.py`: Scalar radion thermodynamics, Poynting energy flux (S_phi = 3.41e-5 W/m^2), net mirror radiative force (F_phi = 12.1 nN), and Standard Quantum Limit (SQL) margin (+13.66 dB).
 - `sim_foliation_four_pillars_dynamics.py`: Complete four-pillar dynamics synthesis: Israel junction stress balance (p_eff = -2.70e14 GeV^4), phononic transfer matrix with Bragg gap at [33.19, 36.20] Hz, geodesic Jacobi scalar force dominance (ratio = 3.33e15), and 500 m distributed network triangulation (tau_max = 87.31 s).
+
+---
+
+# Sección II: Validación Experimental Acústica y Cotas Métricas (LIGO O3)
+
+Protocolo experimental de bombeo-sonda (*Pump-Probe*) y análisis de límites métricos en ultra-alto vacío para evaluar la transferencia de energía-momento y el desacoplo de halos transitorios.
+
+### Módulos de Análisis Experimental y Metrología
+
+- `test_ligo.py`: Descarga y cálculo de la Densidad Espectral de Amplitud (ASD) del canal de deformación métrica $h(t)$ de LIGO Livingston (L1, Run O3) mediante GWOSC.
+- `metricas_ligo_valores.py`: Extracción cuantitativa celda a celda de la sensibilidad métrica en las frecuencias críticas ($13{,}15\text{ Hz}$, $17{,}20\text{ Hz}$, $26{,}30\text{ Hz}$, $210{,}40\text{ Hz}$ y $210{,}42\text{ Hz}$).
+- `generar_audios_15min.py`: Síntesis de formas de onda bifrecuencia con corte temporal abrupto ($t = t_{\text{corte}}$) para ensayos de relajación en cavidad macroscópica ($53\text{ m}^3$).
+- `ligo_espectro_test.png`: Curva experimental de deformación espectral en LIGO L1 contrastando el muro sísmico frente a la zona de máxima sensibilidad.
+
+### Cotas Cuantitativas Obtenidas
+
+| Canal / Frecuencia | Sensibilidad / Nivel | Régimen Físico |
+| :--- | :--- | :--- |
+| **Bomba desacoplada ($17{,}20\text{ Hz}$)** | Decaimiento $-8{,}41\text{ dB}$ en $50\text{ s}$ | Relajación acústica lineal del volumen |
+| **Límite relativo de mezcla ($\eta$)** | $\le -57{,}0\text{ dBc}$ | Cota superior de modulación cruzada en cavidad |
+| **LIGO L1 ($13{,}15\text{ Hz}$)** | $\text{ASD} = 3{,}86 \times 10^{-21}\text{ Hz}^{-1/2}$ | Fondo dominado por aislamiento sísmico |
+| **LIGO L1 ($210{,}41\text{ Hz}$)** | $\text{ASD} = 4{,}67 \times 10^{-24}\text{ Hz}^{-1/2}$ | Suelo térmico de espejos en vacío puro |
+| **Cota coherente integrada ($T = 1024\text{ s}$)** | $h_0 \le 1{,}46 \times 10^{-25}$ | Cota superior estricta a oscilaciones métricas |
+
+### Modelo de Desacoplo de Halo Transitorio
+
+En medios de alta densidad bariónica ($\rho_{\text{in}} \gg \rho_{\text{ext}}$), el grado de libertad escalar permanece apantallado y canaliza su disipación a través del peine armónico elástico ($16 \times 13{,}15\text{ Hz} = 210{,}40\text{ Hz}$). 
+
+En la discontinuidad de corte ($t = t_{\text{corte}}$), la ruptura del equilibrio adiabático en la frontera interfacial desacopla una componente transitoria hacia el medio difuso circundante:
+
+$$h_{ij}(t, \mathbf{x}) = \Theta(t - t_{\text{corte}}) \, \frac{\mathcal{A}_{\text{trans}}}{\vert{}\mathbf{x}\vert{}} \, \exp\left( -\frac{t - t_{\text{corte}}}{\tau_{\text{halo}}} \right) \cos\big( \omega_{\text{halo}}(t - t_{\text{corte}}) + \delta \big)$$
+
+donde $\tau_{\text{halo}} \gg \tau_{\text{acústico}}$ define la persistencia del halo en ausencia de pérdidas viscosas ordinarias.
